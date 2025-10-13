@@ -1,0 +1,50 @@
+body {
+    background-image: url("tlo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    color: #ffcc00;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.8);
+    color: #ccc;
+    padding: 10px;
+}
