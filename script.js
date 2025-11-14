@@ -190,6 +190,7 @@ function onTileRemove(e) {
 
 function checkWin() {
   if (placed === tiles.length) {
+    console.log("Puzzle zostały ułożóne!");
     showNotification("Gratulacje!", "Ułożyłeś całą układankę.");
   }
 }
@@ -226,3 +227,4 @@ function shuffleArray(arr) {
 
 initMap();
 requestNotificationPermission();
+
