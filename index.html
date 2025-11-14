@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Układanka z mapą</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="top-ui">
+    <button id="locBtn">Moja lokalizacja</button>
+    <button id="exportBtn">Pobierz mapę</button>
+    <div id="coords"></div>
+  </div>
+
+  <div id="layout">
+
+    <div id="left">
+      <div id="map"></div>
+      <div id="canvasPreview"></div>
+    </div>
+
+    <div id="right">
+      <h3>Układanka (16 elementów)</h3>
+      <div id="board"></div>
+      <div id="stol"></div>
+    </div>
+
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-image@0.4.0/leaflet-image.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
